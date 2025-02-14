@@ -1,4 +1,3 @@
-import pytest
 import requests
 from jsonschema import validate
 from helpers.load_schema import load_schema
