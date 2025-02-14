@@ -98,8 +98,7 @@ def test_negative_create_empty_user():
     response = requests.post(url=url)
 
     # тест ожидаемо будет падать в ошибку, т.к. текущее api позволяет создать пользователя без данных
-    assert response.status_code == 400, (f'Пользователь с пустыми данными не должен создаваться. '
-                                         f'Актуальный status_code: {response.status_code}')
+    assert response.status_code == 400, (f'Пользователь с пустыми данными не должен создаваться.')
 
 
 def test_negative_get_not_found_user():
