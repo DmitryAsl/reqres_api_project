@@ -1,0 +1,8 @@
+new_user:
+  body:
+    email: eve.holt@reqres.in
+    password: 12345
+  status_code: 200
+
+new_empty_user:
+  status_code: 400

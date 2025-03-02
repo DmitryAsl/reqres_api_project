@@ -1,0 +1,24 @@
+get_user:
+  user_id: 2
+  status_code: 200
+
+post_create_user:
+  body:
+    name: John
+    job: manager
+  status_code: 201
+
+put_update_user:
+  user_id: 10
+  body:
+    name: Morpheus
+    job: zion resident
+  status_code: 200
+
+delete_user:
+  user_id: 1
+  status_code: 204
+
+get_not_found_user:
+  user_id: twenty
+  status_code: 404
