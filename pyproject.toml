@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "qa-guru-hw-17-api"
+name = "reqres_api_project"
 version = "0.1.0"
 description = ""
 authors = ["DmitryAsl <aslamovdima10@yandex.ru>"]
