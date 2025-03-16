@@ -23,25 +23,33 @@
 <summary><h3> Запуск тестов с помощью Jenkins </h3><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height=30 weight=30 /></summary> 
 
   > **Перейти в [сборку](https://jenkins.autotests.cloud/job/dmitry_asl_reqres_api_project/)**  
-  > **Нажать на кнопку "Build Now"** 
+  > **Нажать на кнопку "Build Now"**  
   <p>
-  <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/jenkins_build.png" />  
-  </p>  
+  <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/jenkins_build.png" />
+  </p> 
+
   > Результаты запуска находятся в левом углу, последний запуск  
-  
   <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/jenkins_builds_allurepng.png" />
 </details>
 <details>
 <summary><h3> Запуск тестов локально </h3></summary>  
-  В терминале в папке проекта выполнить команды
-  
+
+  1. Склонировать репозиторий
+  2. Открыть проект в PyCharm
+  3. Ввести в терминале следующие команды
+     - если Poetry ещё **не установлен**, сначала установите его:  
+    ```
+    pip install poetry  
+    ```
+  > Основные команды по настройке проекта и запуска тестов  
   ```
+  poetry install --no-root
   poetry shell
   pytest tests
   ```
 **Если локально установлен Allure можно посмотреть отчет, для этого выполняем**
   ```
-  allure.bat serve allure-results
+  allure serve allure-results
   ```
 
 </details>
