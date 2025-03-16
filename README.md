@@ -1,4 +1,4 @@
-<h2 align="center"> Тестовый проект API автотестов на сайт samokat.ru</h2>  
+<h2 align="center"> Тестовый проект API автотестов на reqres.in </h2>  
 
 
 ### Используемый стек
@@ -6,9 +6,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" height=50 weight=50 />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg" height=50 weight=50 />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height=50 weight=50 />
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/selenoid.svg" height=50 weight=50 />
   <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" height=50 weight=50 />
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/Telegram.svg" height=50 weight=50 />
+  <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/Telegram.svg" height=50 weight=50 />
 </p>        
 
 ### Автоматизированные кейсы
@@ -23,17 +22,14 @@
 <details>
 <summary><h3> Запуск тестов с помощью Jenkins </h3><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height=30 weight=30 /></summary> 
 
-  > **Перейти в [сборку](https://jenkins.autotests.cloud/job/C17_dmitry_asl_hw14_Samokat/)**  
-  > **Перейти на вкладку "Build with Parameters"** 
+  > **Перейти в [сборку](https://jenkins.autotests.cloud/job/dmitry_asl_reqres_api_project/)**  
+  > **Нажать на кнопку "Build Now"** 
   <p>
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/jenkins.jpg" />
+  <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/jenkins_build.png" />  
   </p>  
+  > Результаты запуска находятся в левом углу, последний запуск  
   
-  > **Выбрать параметры из выпадающих список и нажать "Build"**
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/build_jenkins.jpg" />
-  
-  > Результаты запуска находятся в левом углу, последний запуск
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/check_build.jpg" />
+  <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/jenkins_builds_allurepng.png" />
 </details>
 <details>
 <summary><h3> Запуск тестов локально </h3></summary>  
