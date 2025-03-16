@@ -56,19 +56,20 @@
 
 ### Отчет о результатах в Allure <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" height=30 weight=30 />
 > В качестве системы отчетности выбран **Allure Report**  
-> Для перехода в отчет, в Jenkins в левом углу нажать на иконку на Вашем запуске  
-  <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/check_build.jpg" />
+> Для перехода в отчет, в Jenkins в левом углу нажать на иконку на Вашем запуске
+>> Запуск отображается упавших, т.к. присутствует упавший тест, который является багом в продукте   
+  <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/jenkins_builds_allurepng.png" />
   
 > В открывшемся окне представлена общая информация по тестам  
 >> Для подробной информации переходим на вкладку **Suits** и раскрываем все тесты для наглядности  
->>> При нажатии на конкретный тест справа отображается подробная информация по нему  
- <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/allure_result_green.jpg" />
+>>> При нажатии на конкретный тест справа отображается подробная информация по нему.  
+>>> В каждом тесте присутствуют логи всех запросов и ответов.
+ <img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/allure_full_info.png" />
 
 ### Отправка оповещения прохождения тестов в Telegram <img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/Telegram.svg" height=30 weight=30 />
 
 > Автоматически настроена отправка оповещения о результатах прохождения тестов в чат **Telegram** с тегом ответственных людей.  
 > В оповещении присутствует общая информация о запуске и ссылка на отчет в **Allure**.  
->> Для наглядности был выбран запуск тестов с ошибкой (упавший тест - плавающий баг на сайте)
-<img src="https://github.com/DmitryAsl/qa_guru_hw_14_Samokat/blob/main/data/icons/telegram_notific.jpg" />
+<img src="https://github.com/DmitryAsl/reqres_api_project/blob/master/data/pictures/notifications_tg.png" />
 
 #### Для вопросов и предложений можно связаться в [telegram](https://t.me/Dmitry_Asl) 
